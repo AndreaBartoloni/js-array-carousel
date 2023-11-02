@@ -6,6 +6,7 @@
     text-align: center;
     width: 60%;
     margin:auto;
+    position: relative;
 }
 #container{
     
@@ -19,7 +20,7 @@
     background-size: cover;
     background-position: center;
     background-image: url(img/01.webp); 
-    
+    position: relative;
 }
 .img1 > img{
     position: absolute;
@@ -32,39 +33,8 @@
 .bottom{
     bottom: 10px;
 }
-.img2{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/02.webp); 
-    display: none;
-}
-.img3{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/03.webp); 
-    display: none;
-}
-.img4{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/04.webp); 
-    display: none;
-}
-.img5{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(img/05.webp);
-    display: none; 
-}
+
 .active{
     display: block;
-    position: relative;
+    
 }
